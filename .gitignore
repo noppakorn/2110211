@@ -33,3 +33,7 @@
 
 # IDE specifics
 .vscode
+
+# CMake
+build
+.cache
