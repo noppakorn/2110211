@@ -8,3 +8,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY bin)
 add_executable(ex00e1 "grader/ex00/ex00e1.cpp")
 add_executable(ex00e2 "grader/ex00/ex00e2.cpp")
+
+add_executable(ds00 "grader/ds00/ds00_reverse.cpp")
+add_executable(d57_q0 "grader/d57/d57_q0_remove_even.cpp")
