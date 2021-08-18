@@ -6,9 +6,12 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY bin)
+SET(GCC_COVERAGE_COMPILE_FLAGS "-Wall")
+SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}")
+
 
 # in_class
-add_executable(helloworld "in_class/2021-08-09/helloworld.cpp")
+add_executable(scratch_pad "in_class/scratch_pad.cpp")
 
 # grader
 add_executable(ex00e1 "grader/ex00/ex00e1.cpp")
