@@ -37,3 +37,6 @@
 # CMake
 build
 .cache
+
+# PDF
+**.pdf

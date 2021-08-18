@@ -19,3 +19,5 @@ add_executable(d57_q0_remove_even "grader/d57_q0_remove_even.cpp")
 
 add_executable(ds00_reverse2 "grader/ds00/ds00_reverse2.cpp")
 add_executable(d59_q0_vector_swap "grader/d59_q0_vector_swap.cpp")
+add_executable(d62_q1a_punch "grader/d62_q1a_punch.cpp")
+add_executable(d62_q1c_vector_op "grader/d62_q1c_vector_op.cpp")
