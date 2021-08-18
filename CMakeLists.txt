@@ -14,5 +14,8 @@ add_executable(helloworld "in_class/2021-08-09/helloworld.cpp")
 add_executable(ex00e1 "grader/ex00/ex00e1.cpp")
 add_executable(ex00e2 "grader/ex00/ex00e2.cpp")
 
-add_executable(ds00 "grader/ds00/ds00_reverse.cpp")
-add_executable(d57_q0 "grader/d57/d57_q0_remove_even.cpp")
+add_executable(ds00_reverse "grader/ds00/ds00_reverse.cpp")
+add_executable(d57_q0_remove_even "grader/d57_q0_remove_even.cpp")
+
+add_executable(ds00_reverse2 "grader/ds00/ds00_reverse2.cpp")
+add_executable(d59_q0_vector_swap "grader/d59_q0_vector_swap.cpp")
