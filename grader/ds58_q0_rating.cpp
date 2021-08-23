@@ -9,22 +9,21 @@ int main() {
     cin.tie(0);
     int n;
     cin >> n;
-    map<int,pair<double,int>> code_score;
-    map<string,pair<double,int>> teach_score;
+    map<int,pair<int,int>> code_score;
+    map<string,pair<int,int>> teach_score;
     for (int i = 0; i < n; ++i) {
         int code, score;
         string teach;
         cin >> code >> teach >> score;
         code_score[code].first += score;
-        code_score[code].second += 1;
+        code_score[code].second++;
         teach_score[teach].first += score;
-        teach_score[teach].second += 1;
+        teach_score[teach].second++;
     }
-    for (auto it = code_score.begin(); it != code_score.end(); ++it) {
-        cout << fixed << setprecision(2)  << it->first << " " << it->second.first / it->second.second << endl;
-
+    for (auto x : code_score) {
+        cout << fixed << setprecision(2)  << x.first << " " << (double)x.second.first / x.second.second << "\n";
     }
-    for (auto it = teach_score.begin(); it != teach_score.end(); ++it) {
-        cout << fixed << setprecision(2)  << it->first << " " << it->second.first / it->second.second << endl;
+    for (auto x : teach_score) {
+        cout << fixed << setprecision(2)  << x.first << " " << (double)x.second.first / x.second.second << "\n";
     }
 }
