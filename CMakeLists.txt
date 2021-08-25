@@ -11,6 +11,7 @@ SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}")
 
 
 add_executable(scratch_pad "scratch_pad.cpp")
+add_executable(scratch_pad2 "scratch_pad2.cpp")
 
 # grader
 add_executable(ex00e1 "grader/ex00e1.cpp")
