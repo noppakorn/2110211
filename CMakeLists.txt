@@ -17,10 +17,24 @@ add_executable(ex00e1 "grader/ex00e1.cpp")
 add_executable(ex00e2 "grader/ex00e2.cpp")
 
 add_executable(ds00_reverse "grader/ds00_reverse.cpp")
-add_executable(d57_q0_remove_even "grader/d57_q0_remove_even.cpp")
 add_executable(ds00_reverse2 "grader/ds00_reverse2.cpp")
+add_executable(ds01_most "grader/ds01_most.cpp")
+add_executable(ds01_pair_sum "grader/ds01_pair_sum.cpp")
+
+add_executable(d57_q0_remove_even "grader/d57_q0_remove_even.cpp")
+
+add_executable(ds_58_q0_rating "grader/ds58_q0_rating.cpp")
+
 add_executable(d59_q0_vector_swap "grader/d59_q0_vector_swap.cpp")
+
 add_executable(d62_q1a_punch "grader/d62_q1a_punch.cpp")
 add_executable(d62_q1c_vector_op "grader/d62_q1c_vector_op.cpp")
-add_executable(ds01_pair_sum "grader/ds01_pair_sum.cpp")
-add_executable(ds_58_q0_rating "grader/ds58_q0_rating.cpp")
+add_executable(d62_q1a_vote "grader/d62_q1a_vote.cpp")
+add_executable(d62_q1b_grandfather "grader/d62_q1b_grandfather.cpp")
+add_executable(d62_q1b_vector_intersection "grader/d62_q1b_grandfather.cpp")
+
+add_executable(d63_q1a_hiatus "grader/d63_q1a_hiatus.cpp")
+add_executable(d63_q1a_multi_insert "grader/d63_q1a_multi_insert.cpp")
+add_executable(d63_q1b_interval_count "grader/d63_q1b_interval_count.cpp")
+add_executable(d63_q1b_list_erase "grader/d63_q1b_list_erase.cpp")
+add_executable(d63_qx_inside_interval "grader/d63_qx_inside_interval.cpp")
