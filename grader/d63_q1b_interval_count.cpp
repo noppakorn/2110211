@@ -28,11 +28,12 @@ int main() {
             continue;
         }
         auto low = lower_bound(v.begin(), v.end(), max(p - k, v[0]));
-        auto high = lower_bound(v.begin(), v.end(), min(p + k, v[v.size() - 1]));
+        auto high =
+            lower_bound(v.begin(), v.end(), min(p + k, v[v.size() - 1]));
         if (*high > p + k) {
             high--;
         }
-        cout << (high-low+1) << " ";
+        cout << (high - low + 1) << " ";
     }
     cout << "\n";
 }

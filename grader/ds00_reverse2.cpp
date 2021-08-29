@@ -3,8 +3,8 @@
 using namespace std;
 void reverse(vector<int> &v, vector<int>::iterator a, vector<int>::iterator b) {
     // write your code only in this function
-    for (auto it = a; it < a + (b-a) /2; it++) {
-        swap(*it,*(a+(b-it-1)));
+    for (auto it = a; it < a + (b - a) / 2; it++) {
+        swap(*it, *(a + (b - it - 1)));
     }
 }
 int main() {

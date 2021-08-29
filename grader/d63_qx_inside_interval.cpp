@@ -26,11 +26,10 @@ int main() {
         auto it = d.lower_bound(x);
         if (it->first == x) {
             cout << 1 << " ";
-        }
-        else if (it == d.end() || it->first > x) {
+        } else if (it == d.end() || it->first > x) {
             it--;
             cout << check_range(it, x) << " ";
-        } 
+        }
     }
     cout << "\n";
 }

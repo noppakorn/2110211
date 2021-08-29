@@ -1,5 +1,5 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -11,6 +11,6 @@ int main() {
         m %= 60;
     }
     h %= 24;
-    cout << setw(2) << setfill('0') << h << " " << setw(2) << setfill('0') << m << "\n";
+    cout << setw(2) << setfill('0') << h << " " << setw(2) << setfill('0') << m
+         << "\n";
 }
-

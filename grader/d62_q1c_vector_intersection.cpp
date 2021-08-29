@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int m,n;
+    int m, n;
     scanf("%d%d", &m, &n);
     set<int> a;
     while (m--) {
@@ -14,7 +14,8 @@ int main() {
     while (n--) {
         int i;
         scanf("%d", &i);
-        if (a.find(i) != a.end()) u.insert(i);
+        if (a.find(i) != a.end())
+            u.insert(i);
     }
     for (auto &x : u) {
         printf("%d ", x);

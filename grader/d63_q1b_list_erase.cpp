@@ -5,15 +5,14 @@
 using namespace std;
 void list_erase(vector<int> &v, vector<int> &pos) {
     // write your code here
-    //greater<int> gt;
+    // greater<int> gt;
     sort(pos.begin(), pos.end());
     int id = 0;
     vector<int> x;
     for (int i = 0; i < v.size(); ++i) {
         if (i != pos[id]) {
             x.emplace_back(v[i]);
-        }
-        else {
+        } else {
             ++id;
         }
     }

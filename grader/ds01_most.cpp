@@ -2,16 +2,18 @@
 using namespace std;
 
 int main() {
-    ios::sync_with_stdio(false); cin.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
     int round;
     cin >> round;
-    map<string,int> m;
+    map<string, int> m;
     int max = 0;
-    while(round--) {
+    while (round--) {
         string s;
         cin >> s;
         m[s]++;
-        if (m[s] > max) max = m[s];
+        if (m[s] > max)
+            max = m[s];
     }
 
     string out;

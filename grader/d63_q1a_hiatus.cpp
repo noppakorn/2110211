@@ -43,7 +43,7 @@ int main() {
             if (it2 != d.end()) {
                 cout << it2->first << " " << it2->second << " ";
                 break;
-            } 
+            }
         }
     }
 }

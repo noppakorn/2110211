@@ -7,7 +7,6 @@ void multiple_add(vector<int> &v, int value, int position, int count) {
         v.insert(v.begin() + position, value);
         position++;
     }
-
 }
 int main() {
     std::ios_base::sync_with_stdio(false);

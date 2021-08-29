@@ -3,27 +3,27 @@
 using namespace std;
 void vector_swap(vector<int> &v1, vector<int> &v2, int start1, int end1,
                  int start2, int end2) {
-                     vector<int> tmp1;
-                     vector<int> tmp2;
-                     for (int i = start1; i < end1; i++) {
-                         tmp1.push_back(*(v1.begin() + i));
-                         v1.erase(v1.begin()+i);
-                         i--;
-                         end1--;
-                     }
-                     for (int i = start2; i < end2; i++) {
-                         tmp2.push_back(*(v2.begin() + i));
-                         v2.erase(v2.begin()+i);
-                         i--;
-                         end2--;
-                     }
-                     for (int i = 0; i < tmp1.size(); i++) {
-                         v2.insert(v2.begin()+start2+i, tmp1[i]);
-                     }
-                     for (int i = 0; i < tmp2.size(); i++) {
-                         v1.insert(v1.begin()+start1+i, tmp2[i]);
-                     }
-                 }
+    vector<int> tmp1;
+    vector<int> tmp2;
+    for (int i = start1; i < end1; i++) {
+        tmp1.push_back(*(v1.begin() + i));
+        v1.erase(v1.begin() + i);
+        i--;
+        end1--;
+    }
+    for (int i = start2; i < end2; i++) {
+        tmp2.push_back(*(v2.begin() + i));
+        v2.erase(v2.begin() + i);
+        i--;
+        end2--;
+    }
+    for (int i = 0; i < tmp1.size(); i++) {
+        v2.insert(v2.begin() + start2 + i, tmp1[i]);
+    }
+    for (int i = 0; i < tmp2.size(); i++) {
+        v1.insert(v1.begin() + start1 + i, tmp2[i]);
+    }
+}
 
 int main() {
     // read input
