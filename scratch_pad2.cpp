@@ -4,6 +4,8 @@
 using namespace std;
 
 int main() {
-    printf("0 0");
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    
 }
 

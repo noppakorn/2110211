@@ -23,10 +23,13 @@ add_executable(ds01_most "grader/ds01_most.cpp")
 add_executable(ds01_pair_sum "grader/ds01_pair_sum.cpp")
 
 add_executable(d57_q0_remove_even "grader/d57_q0_remove_even.cpp")
+add_executable(d57_q1_postfix "grader/d57_q1_postfix/main.cpp")
 
 add_executable(ds_58_q0_rating "grader/ds58_q0_rating.cpp")
 
 add_executable(d59_q0_vector_swap "grader/d59_q0_vector_swap.cpp")
+
+add_executable(d59_q0_stack_concat.cpp "grader/d59_q0_stack_concat.cpp")
 
 add_executable(d62_q1a_punch "grader/d62_q1a_punch.cpp")
 add_executable(d62_q1c_vector_op "grader/d62_q1c_vector_op.cpp")
