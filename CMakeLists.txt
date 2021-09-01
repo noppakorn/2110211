@@ -16,6 +16,7 @@ add_executable(scratch_pad2 "scratch_pad2.cpp")
 # grader
 add_executable(ex00e1 "grader/ex00e1.cpp")
 add_executable(ex00e2 "grader/ex00e2.cpp")
+add_executable(ex00e3 "grader/ex00e3.cpp")
 
 add_executable(ds00_reverse "grader/ds00_reverse.cpp")
 add_executable(ds00_reverse2 "grader/ds00_reverse2.cpp")
@@ -31,11 +32,14 @@ add_executable(d59_q0_vector_swap "grader/d59_q0_vector_swap.cpp")
 
 add_executable(d59_q0_stack_concat.cpp "grader/d59_q0_stack_concat.cpp")
 
+add_executable(d60_q0_v2m "grader/d60_q0_v2m.cpp")
+
 add_executable(d62_q1a_punch "grader/d62_q1a_punch.cpp")
 add_executable(d62_q1c_vector_op "grader/d62_q1c_vector_op.cpp")
 add_executable(d62_q1a_vote "grader/d62_q1a_vote.cpp")
 add_executable(d62_q1b_grandfather "grader/d62_q1b_grandfather.cpp")
 add_executable(d62_q1b_vector_intersection "grader/d62_q1b_grandfather.cpp")
+add_executable(d62_q1b_queue_count "grader/d62_q1b_queue_count.cpp")
 
 add_executable(d63_q1a_hiatus "grader/d63_q1a_hiatus.cpp")
 add_executable(d63_q1a_multi_insert "grader/d63_q1a_multi_insert.cpp")
