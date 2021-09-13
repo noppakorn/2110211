@@ -45,6 +45,8 @@ add_executable(d62_q1a_vote "grader/d62_q1a_vote.cpp")
 add_executable(d62_q1b_grandfather "grader/d62_q1b_grandfather.cpp")
 add_executable(d62_q1b_vector_intersection "grader/d62_q1b_grandfather.cpp")
 add_executable(d62_q1b_queue_count "grader/d62_q1b_queue_count.cpp")
+add_executable(d62_q2c_wasted_space "grader/d62_q2c_wasted_space.cpp")
+add_executable(d62_q2a_iterator_check "grader/d62_q2a_iterator_check/main.cpp")
 
 add_executable(d63_q1a_hiatus "grader/d63_q1a_hiatus.cpp")
 add_executable(d63_q1a_multi_insert "grader/d63_q1a_multi_insert.cpp")
