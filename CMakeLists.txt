@@ -32,6 +32,7 @@ add_executable(d57_q1_postfix "grader/d57_q1_postfix/main.cpp")
 add_executable(d57_q1_vequal "grader/d57_q1_vequal/main.cpp")
 
 add_executable(ds_58_q0_rating "grader/ds58_q0_rating.cpp")
+add_executable(d58_q1_erase_many "grader/d58_q1_erase_many/main.cpp")
 
 add_executable(d59_q0_vector_swap "grader/d59_q0_vector_swap.cpp")
 
