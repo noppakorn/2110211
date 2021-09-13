@@ -40,6 +40,8 @@ add_executable(d59_q0_stack_concat.cpp "grader/d59_q0_stack_concat.cpp")
 add_executable(d60_q0_v2m "grader/d60_q0_v2m.cpp")
 add_executable(d60_q0_zipcode "grader/d60_q0_zipcode.cpp")
 
+add_executable(d61_q1_ordered_set "grader/d61_q1_ordered_set/main.cpp")
+
 add_executable(d62_q1a_punch "grader/d62_q1a_punch.cpp")
 add_executable(d62_q1c_vector_op "grader/d62_q1c_vector_op.cpp")
 add_executable(d62_q1a_vote "grader/d62_q1a_vote.cpp")
