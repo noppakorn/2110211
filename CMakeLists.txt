@@ -24,6 +24,7 @@ add_executable(ds00_reverse "grader/ds00_reverse.cpp")
 add_executable(ds00_reverse2 "grader/ds00_reverse2.cpp")
 add_executable(ds01_most "grader/ds01_most.cpp")
 add_executable(ds01_pair_sum "grader/ds01_pair_sum.cpp")
+add_executable(ds02_is_reverse "grader/ds02_is_reverse.cpp")
 
 add_executable(d57_q0_remove_even "grader/d57_q0_remove_even.cpp")
 add_executable(d57_q0_histogram "grader/d57_q0_histrogram.cpp")
