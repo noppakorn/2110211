@@ -29,6 +29,7 @@ add_executable(ds02_is_reverse "grader/ds02_is_reverse.cpp")
 add_executable(d57_q0_remove_even "grader/d57_q0_remove_even.cpp")
 add_executable(d57_q0_histogram "grader/d57_q0_histrogram.cpp")
 add_executable(d57_q1_postfix "grader/d57_q1_postfix/main.cpp")
+add_executable(d57_q1_vequal "grader/d57_q1_vequal/main.cpp")
 
 add_executable(ds_58_q0_rating "grader/ds58_q0_rating.cpp")
 
