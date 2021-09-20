@@ -30,14 +30,16 @@ add_executable(d57_q0_remove_even "grader/d57_q0_remove_even.cpp")
 add_executable(d57_q0_histogram "grader/d57_q0_histrogram.cpp")
 add_executable(d57_q1_postfix "grader/d57_q1_postfix/main.cpp")
 add_executable(d57_q1_vequal "grader/d57_q1_vequal/main.cpp")
+add_executable(d57_q1_sbv "grader/d57_q1_sbv/test_stack.cpp")
+add_executable(d57_q1_sbv2 "grader/d57_q1_sbv2/test_stack.cpp")
 
 add_executable(ds_58_q0_rating "grader/ds58_q0_rating.cpp")
 add_executable(d58_q1_erase_many "grader/d58_q1_erase_many/main.cpp")
 
 add_executable(d59_q0_vector_swap "grader/d59_q0_vector_swap.cpp")
-
 add_executable(d59_q0_stack_concat.cpp "grader/d59_q0_stack_concat.cpp")
 add_executable(d59_q1_range_insert "grader/d59_q1_range_insert/main.cpp")
+add_executable(d59_q1_pop_many "grader/d59_q1_pop_many/main.cpp")
 
 add_executable(d60_q0_v2m "grader/d60_q0_v2m.cpp")
 add_executable(d60_q0_zipcode "grader/d60_q0_zipcode.cpp")
@@ -55,7 +57,7 @@ add_executable(d62_q2c_wasted_space "grader/d62_q2c_wasted_space.cpp")
 add_executable(d62_q2a_iterator_check "grader/d62_q2a_iterator_check/main.cpp")
 add_executable(d62_q2c_vector_swap "grader/d62_q2c_vector_swap/main.cpp")
 add_executable(d62_q2b_insert_many "grader/d62_q2b_insert_many/main.cpp")
-
+add_executable(d62_q2b_stack_deep_push "grader/d62_q2b_stack_deep_push/main.cpp")
 
 add_executable(d63_q1a_hiatus "grader/d63_q1a_hiatus.cpp")
 add_executable(d63_q1a_multi_insert "grader/d63_q1a_multi_insert.cpp")
@@ -65,3 +67,4 @@ add_executable(d63_qx_inside_interval "grader/d63_qx_inside_interval.cpp")
 add_executable(d63_q2a_pair_gte "grader/d63_q2a_pair_gte/main.cpp")
 add_executable(d63_q2a_vector_mirror "grader/d63_q2a_vector_mirror/main.cpp")
 add_executable(d63_q2b_vector_compress "grader/d63_q2b_vector_compress/main.cpp")
+add_executable(d63_q2b_stack_reserve "grader/d63_q2b_stack_reserve/main.cpp")
