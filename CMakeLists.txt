@@ -45,6 +45,7 @@ add_executable(d60_q0_v2m "grader/d60_q0_v2m.cpp")
 add_executable(d60_q0_zipcode "grader/d60_q0_zipcode.cpp")
 add_executable(d60_q1_v_uniq "grader/d60_q1_v_uniq/main.cpp")
 add_executable(d60_q2_split_queue "grader/d60_q2_split_queue/main.cpp")
+add_executable(d60_q1_qat "grader/d60_q1_qat/main.cpp")
 
 add_executable(d61_q1_ordered_set "grader/d61_q1_ordered_set/main.cpp")
 add_executable(d61_q1_append "grader/d61_q1_append/main.cpp")
