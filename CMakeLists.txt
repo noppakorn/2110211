@@ -35,6 +35,7 @@ add_executable(d57_q1_sbv2 "grader/d57_q1_sbv2/test_stack.cpp")
 
 add_executable(ds_58_q0_rating "grader/ds58_q0_rating.cpp")
 add_executable(d58_q1_erase_many "grader/d58_q1_erase_many/main.cpp")
+add_executable(d58_q1_to_vector "grader/d58_q1_to_vector/main.cpp")
 
 add_executable(d59_q0_vector_swap "grader/d59_q0_vector_swap.cpp")
 add_executable(d59_q0_stack_concat.cpp "grader/d59_q0_stack_concat.cpp")
