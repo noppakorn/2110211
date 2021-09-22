@@ -59,6 +59,7 @@ add_executable(d62_q2c_vector_swap "grader/d62_q2c_vector_swap/main.cpp")
 add_executable(d62_q2b_insert_many "grader/d62_q2b_insert_many/main.cpp")
 add_executable(d62_q2b_stack_deep_push "grader/d62_q2b_stack_deep_push/main.cpp")
 add_executable(d62_q3b_queue_m2f "grader/d62_q3b_queue_m2f/main.cpp")
+add_executable(d62_q2a_multi_count "grader/d62_q2a_multi_count/main.cpp")
 
 add_executable(d63_q1a_hiatus "grader/d63_q1a_hiatus.cpp")
 add_executable(d63_q1a_multi_insert "grader/d63_q1a_multi_insert.cpp")
