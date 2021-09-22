@@ -46,6 +46,7 @@ add_executable(d60_q0_zipcode "grader/d60_q0_zipcode.cpp")
 add_executable(d60_q1_v_uniq "grader/d60_q1_v_uniq/main.cpp")
 
 add_executable(d61_q1_ordered_set "grader/d61_q1_ordered_set/main.cpp")
+add_executable(d61_q1_append "grader/d61_q1_append/main.cpp")
 
 add_executable(d62_q1a_punch "grader/d62_q1a_punch.cpp")
 add_executable(d62_q1c_vector_op "grader/d62_q1c_vector_op.cpp")
