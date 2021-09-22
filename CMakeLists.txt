@@ -40,6 +40,7 @@ add_executable(d59_q0_vector_swap "grader/d59_q0_vector_swap.cpp")
 add_executable(d59_q0_stack_concat.cpp "grader/d59_q0_stack_concat.cpp")
 add_executable(d59_q1_range_insert "grader/d59_q1_range_insert/main.cpp")
 add_executable(d59_q1_pop_many "grader/d59_q1_pop_many/main.cpp")
+add_executable(d59_q2_queue_equality "grader/d59_q2_queue_equality/main.cpp")
 
 add_executable(d60_q0_v2m "grader/d60_q0_v2m.cpp")
 add_executable(d60_q0_zipcode "grader/d60_q0_zipcode.cpp")
