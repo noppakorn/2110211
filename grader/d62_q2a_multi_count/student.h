@@ -4,10 +4,14 @@
 #include <map>
 #include <vector>
 #include <cstdlib>
+#pragma GCC optimize("O3")
+#define endl string("\n")
 
 template <typename T>
 std::vector<std::pair<T, size_t>> CP::queue<T>::count_multi(std::vector<T> &k) const {
     // write your code here
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
     std::vector<std::pair<T, size_t>> v(k.size());
     std::map<T,int> m;
     for (size_t i = 0; i < mSize; ++i) {
