@@ -88,3 +88,5 @@ add_executable(d63_q2b_vector_compress "grader/d63_q2b_vector_compress/main.cpp"
 add_executable(d63_q2b_stack_reserve "grader/d63_q2b_stack_reserve/main.cpp")
 add_executable(d63_q3a_queue_m2b "grader/d63_q3a_queue_m2b/main.cpp")
 add_executable(d63_q3b_queue_b2f "grader/d63_q3b_queue_b2f/main.cpp")
+add_executable(d63_q3b_heap_change "grader/d63_q3b_heap_change/main.cpp")
+add_executable(d63_q3a_rank_in_heap "grader/d63_q3a_rank_in_heap/main.cpp")
