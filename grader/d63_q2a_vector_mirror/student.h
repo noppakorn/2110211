@@ -1,7 +1,7 @@
 #ifndef __STUDENT_H_
 #define __STUDENT_H_
 #pragma GCC optimize("O3")
-#define endl "\n"
+#define endl string("\n")
 
 template <typename T>
 void CP::vector<T>::mirror() {

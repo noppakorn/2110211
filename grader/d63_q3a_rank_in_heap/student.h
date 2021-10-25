@@ -1,6 +1,5 @@
 #pragma GCC optimize("O3")
-#define endl "\n"
-using namespace std;
+#define endl string("\n")
 template <typename T, typename Comp>
 size_t CP::priority_queue<T, Comp>::get_rank(size_t pos) const {
     size_t count = 0;
