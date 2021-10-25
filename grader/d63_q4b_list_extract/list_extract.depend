@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1606208592 source:d:\dae\teaching\data structure\2563-a\quiz\q4b-list-extract\package\main.cpp
+	<stdexcept>
+	<assert.h>
+	<vector>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	"list.h"
+	"student.h"
+
+1606208621 d:\dae\teaching\data structure\2563-a\quiz\q4b-list-extract\package\list.h
+	<stdexcept>
+	<iostream>
+
+1606208551 d:\dae\teaching\data structure\2563-a\quiz\q4b-list-extract\package\student.h
+	<algorithm>
+
