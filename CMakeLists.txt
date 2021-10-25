@@ -76,6 +76,7 @@ add_executable(d62_q2a_multi_count "grader/d62_q2a_multi_count/main.cpp")
 add_executable(d62_q3b_kheap_height "grader/d62_q3b_kheap_height.cpp")
 add_executable(d62_q3a_heap_node_relation "grader/d62_q3a_heap_node_relation.cpp")
 add_executable(d62_q3a_heap_descendant "grader/d62_q3a_heap_descendant.cpp")
+add_executable(d62_q4a_list_shift "grader/d62_q4a_list_shift/main.cpp")
 add_executable(d60_q2_heap_height "grader/d60_q2_heap_height/main.cpp")
 
 add_executable(d63_q1a_hiatus "grader/d63_q1a_hiatus.cpp")
