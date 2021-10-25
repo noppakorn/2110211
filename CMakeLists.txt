@@ -96,3 +96,5 @@ add_executable(d63_q3b_heap_change "grader/d63_q3b_heap_change/main.cpp")
 add_executable(d63_q3a_rank_in_heap "grader/d63_q3a_rank_in_heap/main.cpp")
 add_executable(d63_q4b_list_extract "grader/d63_q4b_list_extract/main.cpp")
 add_executable(d63_q4a_list_reverse "grader/d63_q4a_list_reverse/main.cpp")
+
+add_executable(d64_q1a_card_battle "grader/d64_q1a/d64_q1a_card_battle.cpp")
