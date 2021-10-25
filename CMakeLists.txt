@@ -27,6 +27,7 @@ add_executable(ds01_pair_sum "grader/ds01_pair_sum.cpp")
 add_executable(ds02_is_reverse "grader/ds02_is_reverse.cpp")
 add_executable(ds03_head_order "grader/ds03_heap_order.cpp")
 add_executable(ds03_heap_erase "grader/ds03_heap_erase.cpp")
+add_executable(ds04_playlist "grader/ds04_playlist.cpp")
 
 add_executable(d57_q0_remove_even "grader/d57_q0_remove_even.cpp")
 add_executable(d57_q0_histogram "grader/d57_q0_histrogram.cpp")
