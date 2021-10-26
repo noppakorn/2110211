@@ -1,26 +1,21 @@
-#ifndef __STUDENT_H_
-#define __STUDENT_H_
-
-#include <map>
-#include <vector>
-#include <cstdlib>
 #pragma GCC optimize("O3")
-#define endl string("\n")
-
-template <typename T>
-std::vector<std::pair<T, size_t>> CP::queue<T>::count_multi(std::vector<T> &k) const {
-    // write your code here
+#define endl string("\n");
+#include <ext/pb_ds/assoc_container.hpp>
+template <class T>
+std::vector<std::pair<T, size_t>>
+CP::queue<T>::count_multi(std::vector<T> &k) const {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
-    std::vector<std::pair<T, size_t>> v(k.size());
-    std::map<T,int> m;
+    __gnu_pbds::cc_hash_table<T, size_t> m;
+    for (auto &x : k)
+        m[x];
     for (size_t i = 0; i < mSize; ++i) {
-        ++m[mData[(mFront+i) % mCap]];
+        auto t = m.find(mData[(mFront + i) % mCap]);
+        if (t != m.end())
+            t->second++;
     }
-    for (size_t i = 0; i < k.size(); ++i) {
-        v[i] = std::make_pair(k[i], m[k[i]]);
-    }
+    std::vector<std::pair<T, size_t>> v;
+    for (auto &x : k)
+        v.push_back({x, m[x]});
     return v;
 }
-
-#endif
