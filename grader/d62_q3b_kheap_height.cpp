@@ -1,23 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
-    long long n, k, i = 0;
-    std::cin >> n >> k;
-    long long p = 0;
-    if (k <= 1) {
-        cout << n-k;
-        return 0;
-    }
-    while (true) {
-        p += pow(k, i);
-        if (p > n) {
-            cout << i;
-            break;
-        } else if (p == n) {
-            cout << i;
-            break;
+    uint64_t n, k, s, f;
+    cin >> n >> k;
+    if (k == 1)
+        cout << n - k << "\n";
+    else {
+        s = 0;
+        f = 0;
+        while (s < n) {
+            s += pow(k, f++);
         }
-        ++i;
+        cout << f - 1 << "\n";
     }
 }
