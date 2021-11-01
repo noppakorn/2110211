@@ -37,6 +37,7 @@ add_executable(d57_q1_sbv "grader/d57_q1_sbv/test_stack.cpp")
 add_executable(d57_q1_sbv2 "grader/d57_q1_sbv2/test_stack.cpp")
 add_executable(d57_q2_heap_order2 "grader/d57_q2_heap_order2.cpp")
 add_executable(d57_q2_kheap "grader/d57_q2_kheap/main.cpp")
+add_executable(d57_q3_shift "grader/d57_q3_shift/main.cpp")
 
 add_executable(ds_58_q0_rating "grader/ds58_q0_rating.cpp")
 add_executable(d58_q1_erase_many "grader/d58_q1_erase_many/main.cpp")
@@ -62,6 +63,7 @@ add_executable(d60_q3_lremove_all "grader/d60_q3_lremove_all/main.cpp")
 
 add_executable(d61_q1_ordered_set "grader/d61_q1_ordered_set/main.cpp")
 add_executable(d61_q1_append "grader/d61_q1_append/main.cpp")
+add_executable(d61_q2_splitlist "grader/d61_q2_splitlist/main.cpp")
 
 add_executable(d62_q1a_punch "grader/d62_q1a_punch.cpp")
 add_executable(d62_q1c_vector_op "grader/d62_q1c_vector_op.cpp")
