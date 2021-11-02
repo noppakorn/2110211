@@ -52,6 +52,7 @@ add_executable(d59_q1_range_insert "grader/d59_q1_range_insert/main.cpp")
 add_executable(d59_q1_pop_many "grader/d59_q1_pop_many/main.cpp")
 add_executable(d59_q2_queue_equality "grader/d59_q2_queue_equality/main.cpp")
 add_executable(d59_q2_heap_find "grader/d59_q2_heap_find/main.cpp")
+add_executable(d59_q3_list_split "grader/d59_q3_list_split/main.cpp")
 
 add_executable(d60_q0_v2m "grader/d60_q0_v2m.cpp")
 add_executable(d60_q0_zipcode "grader/d60_q0_zipcode.cpp")
@@ -101,3 +102,4 @@ add_executable(d63_q4a_list_reverse "grader/d63_q4a_list_reverse/main.cpp")
 
 add_executable(d64_q1a_card_battle "grader/d64_q1a/d64_q1a_card_battle.cpp")
 add_executable(d64_q1b_moving_median "grader/d64_q1b_moving_median.cpp")
+add_executable(d64_q2b_vector_rotate "grader/d64_q2b_vector_rotate/main.cpp")
