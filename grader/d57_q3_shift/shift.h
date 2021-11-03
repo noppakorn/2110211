@@ -1,17 +1,28 @@
 void shift(int k) {
-    int count = 0;
-    if (k == 0) return;
     auto it = begin();
-    if (k > 0) {
-        for (int i = 0; i < k; ++i) {
-            ++it;
-        }
+    if (k < 0) {
+        k = k % (int)mSize;
+        k = (k + (int)mSize) % (int)mSize;
     } else {
-        for (int i = 0; i > k; --i) {
-            --it;
-            ++count;
-        }
+        k = k % (int)mSize;
     }
-    std::cout << count << std::endl;
-    std::cout << *it << std::endl;
+    if (k == 0) {
+        return;
+    } else {
+        for (int i = 0; i < k; ++i)
+            ++it;
+    }
+    auto ofirst = mHeader->next;
+    auto olast = mHeader->prev;
+    ofirst->prev = olast;
+    olast->next = ofirst;
+
+    auto nfirst = it.ptr;
+    auto nlast = it.ptr->prev;
+
+    mHeader->next = nfirst;
+    nfirst->prev = mHeader;
+
+    mHeader->prev = nlast;
+    nlast->next = mHeader;
 }
