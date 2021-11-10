@@ -62,6 +62,7 @@ add_executable(d60_q2_split_queue "grader/d60_q2_split_queue/main.cpp")
 add_executable(d60_q1_qat "grader/d60_q1_qat/main.cpp")
 add_executable(d60_q2_heap_height "grader/d60_q2_heap_height/main.cpp")
 add_executable(d60_q3_lremove_all "grader/d60_q3_lremove_all/main.cpp")
+add_executable(d60_q3_same_tree "grader/d60_q3_same_tree/main.cpp")
 
 add_executable(d61_q1_ordered_set "grader/d61_q1_ordered_set/main.cpp")
 add_executable(d61_q1_append "grader/d61_q1_append/main.cpp")
