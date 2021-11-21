@@ -1,27 +1,25 @@
-#ifndef __STUDENT_H__
-#define __STUDENT_H__
-
-template <typename KeyT, typename MappedT, typename CompareT>
-size_t CP::map_bst<KeyT, MappedT, CompareT>::process(node *ptr) const {
-    int count = 0;
-    if (ptr == nullptr)
-        return 0;
-    else if (ptr->left != nullptr && ptr->right == nullptr) {
-        ++count;
-        count += process(ptr->left);
-    } else if (ptr->left == nullptr && ptr->right != nullptr) {
-        ++count;
-        count += process(ptr->right);
-    } else {
-        count += process(ptr->left);
-        count += process(ptr->right);
-    }
-    return count;
+#pragma GCC optimize("O3")
+#define endl string("\n");
+template <typename KeyT,
+          typename MappedT,
+          typename CompareT>
+size_t CP::map_bst<KeyT,MappedT,CompareT>::process(node* ptr) const {
+  size_t ret = 0;
+  if (ptr->left == nullptr && ptr->right != nullptr) {
+    ++ret;
+  } else if (ptr->right == nullptr && ptr->left != nullptr) {
+    ++ret;
+  }
+  if (ptr->left != nullptr) ret += process(ptr->left);
+  if (ptr->right != nullptr) ret += process(ptr->right);
+  return ret;
 }
 
-template <typename KeyT, typename MappedT, typename CompareT>
-size_t CP::map_bst<KeyT, MappedT, CompareT>::count_unary() const {
-    return process(mRoot);
+template <typename KeyT,
+          typename MappedT,
+          typename CompareT>
+size_t CP::map_bst<KeyT,MappedT,CompareT>::count_unary() const {
+  std::ios::sync_with_stdio(false);
+  std::cin.tie(nullptr);
+  return process(mRoot);
 }
-
-#endif
