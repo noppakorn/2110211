@@ -1,26 +1,32 @@
-#pragma GCC optimize("O3")
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
-    int n, w;
+    size_t n,w;
     cin >> n >> w;
     vector<int> v(n);
-    for (int i = 0; i < n; ++i) {
+    for (size_t i = 0; i < n; ++i) {
         cin >> v[i];
     }
-    if (n == w) {
-        cout << v[n / 2];
+    multiset<int> s;
+    for (size_t i = 0; i < w+1; ++i) {
+        s.insert(v[i]);
     }
-    for (int i = 0; i < n - w; ++i) {
-        int curr = i;
-        vector<int> u(w + 1);
-        for (int j = 0; j < w + 1; ++j) {
-            u[j] = v[curr++];
+    auto it = s.begin();
+    for (size_t i = 0; i < w/2; ++i) {
+        ++it;
+    }
+    for (size_t i = 0; i < n-w; ++i) {
+        cout << *it << " ";
+        auto tmp = s.find(v[i]);
+        s.erase(tmp);
+        s.insert(v[i+w+1]);
+        it = s.begin();
+        for (size_t i = 0; i < w/2; ++i) {
+            ++it;
         }
-        sort(u.begin(), u.end());
-        cout << u[w / 2] << " ";
     }
+    cout << endl;
 }
