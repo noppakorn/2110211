@@ -59,7 +59,7 @@ add_executable(d59_q1_pop_many "grader/d59_q1_pop_many/main.cpp")
 add_executable(d59_q2_queue_equality "grader/d59_q2_queue_equality/main.cpp")
 add_executable(d59_q2_heap_find "grader/d59_q2_heap_find/main.cpp")
 add_executable(d59_q3_list_split "grader/d59_q3_list_split/main.cpp")
-add_executable(d59_q3_bst_split "grader/d59_q3_bst_split/main.cpp")
+# add_executable(d59_q3_bst_split "grader/d59_q3_bst_split/main.cpp")
 
 add_executable(d60_q0_v2m "grader/d60_q0_v2m.cpp")
 add_executable(d60_q0_zipcode "grader/d60_q0_zipcode.cpp")
