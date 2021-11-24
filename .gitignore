@@ -40,3 +40,7 @@ build
 
 # PDF
 **.pdf
+
+# CLion
+cmake-build-debug
+.idea
